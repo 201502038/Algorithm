@@ -1,7 +1,9 @@
 package com.company;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
+import java.util.Stack;
 
 public class _12_stackAndQueue {
     public static void main(String[] args) {
@@ -12,10 +14,4 @@ public class _12_stackAndQueue {
 
     }
 
-    static int queueValue(Queue<Integer> queue) {
-        int sum = 0;
-        while (!queue.isEmpty())
-            sum += queue.poll();
-        return sum;
-    }
 }
