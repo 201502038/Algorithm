@@ -2,8 +2,8 @@ package com.company;
 
 public class _23_greedy {
     public static void main(String[] args) {
-        String number = "";
-        int k = 0;
+        String number = "4177252841";
+        int k = 4;
         int idx = 0;
         char max;
         StringBuilder answer = new StringBuilder();
@@ -19,5 +19,6 @@ public class _23_greedy {
             }
             answer.append(max);
         }
+        System.out.println(answer);
     }
 }
