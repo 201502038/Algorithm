@@ -16,7 +16,5 @@ public class _21_greedy {
                 answer++;
         }
 
-
-
     }
 }
