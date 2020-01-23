@@ -9,7 +9,7 @@ public class _25_search {
 
     }
 
-    public static int solution(String begin, String target, String[] words) {
-
-    }
+//    public static int solution(String begin, String target, String[] words) {
+//
+//    }
 }
